@@ -10,6 +10,6 @@ public class VacinasApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VacinasApplication.class, args);
-		System.out.println("Ok!");
+		System.out.println("Ok");
 	}
 }
