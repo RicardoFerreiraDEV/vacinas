@@ -16,6 +16,11 @@ public class VacinaController {
     @Autowired
     private VacinaRepository vacinaRepository;
 
+    @RequestMapping("/")
+    String index() {
+        return "Vacina - Backend";
+    }
+
     @RequestMapping("/vacinas")
     public List<Vacinas> vacinas(){
         return vacinaRepository.findAll();
